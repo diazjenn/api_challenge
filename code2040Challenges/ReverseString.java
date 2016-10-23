@@ -8,7 +8,7 @@ import java.io.*;
  */
 public class ReverseString extends JSONConnect{
     
-    // Reverses a string using StringBuffer reverse() method
+    // Reverses a string using StringBuffer method
     public static String reverseString(String str) {
         StringBuffer buffer = new StringBuffer(str);
         String reversed = buffer.reverse().toString();
